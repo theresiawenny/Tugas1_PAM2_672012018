@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jquery Sample</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile.js"></script>
+</head>
+<body>	
+	<div data-role="page" id="main">
+		<div data-role="header" data-position="fixed">
+			<a href="" data-icon="home">Home</a>
+			<h1>Info Wisata Jawa Tengah</h1>
+			<a href="#secondPage" data-icon="info">About</a>
+		</div>
+		<div data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li style="padding:2pt">
+					<a href="lawangsewu.html" data-ajax="false"> 
+						<img src="img/01.jpg"/>
+						<h4>Lawang Sewu Semarang</h4>
+						<p>Informasi Tentang Lawang Sewu Semarang</p>
+						<span class="ui-li-count">2</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="kotalama.html" data-ajax="false"> 
+						<img src="img/02.jpg"/>
+						<h4>Kota Lama Semarang (Little Netherland) </h4>
+						<p>Informasi Tentang Kota Lama Semarang</p>
+						<span class="ui-li-count">2</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="keraton.html" data-ajax="false"> 
+						<img src="img/03.jpg"/>
+						<h4>Keraton Kasunanan Surakarta Hadiningrat Solo</h4>
+						<p>Informasi Tentang Keraton Kasunanan Surakarta Hadiningrat Solo </p>
+						<span class="ui-li-count">8</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="kampung.html" data-ajax="false"> 
+						<img src="img/04.jpg"/>
+						<h4>Kampung Batik Laweyan di Solo</h4>
+						<p>Informasi Tentang Kampung Batik Laweyan di Solo</p>
+						<span class="ui-li-count">2</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="karimun.html" data-ajax="false"> 
+						<img src="img/05.jpg"/>
+						<h4>Taman Nasional Karimunjawa di Jepara </h4>
+						<p>Informasi Tentang Taman Nasional Karimunjawa di Jepara</p>
+						<span class="ui-li-count">2</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<h4>FTI &copy; 2015</h4>
+		</div>
+	</div>
+	
+	<div data-role="page" id="secondPage" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>About</h1>
+		</div>
+		<div data-role="content" align="center">
+			<h3>
+				NIM: 672012018
+				<br>Nama:Theresia Wenny Oktavia Puspa Wijaya
+				<br>Fakultas: Teknologi Informasi
+				<br>Progam Study: Teknik Informatika
+				<br>Universitas: Universitas Kristen Satya Wacana
+			</h3>	
+		</div>
+
+
+		<div data-role="footer" data-position="fixed">   
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href="#main" data-icon="home" class="ui-btn-active">Home</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
